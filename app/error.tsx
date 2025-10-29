@@ -7,6 +7,7 @@ import { useEffect } from 'react'
 import Link from 'next/link'
 import { logError } from '@/lib/logger/error'
 
+
 export default function ErrorPage({
   error,
   reset,
